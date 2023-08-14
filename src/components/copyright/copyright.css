@@ -1,0 +1,35 @@
+.copy{
+    text-align: center;
+    margin-top: 80px;
+    width: 100vw;
+    background-color: rgb(17,24,37);
+    color: antiquewhite;
+    padding: 20px;
+}
+.copy > p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.copy > p >span{
+     font-size: 20px;
+    font-weight: 600;
+    color: rgb(154,86,249);
+}
+@media screen and (max-width: 768px){
+    .copy{
+        margin-top: 50px;
+        text-align: center;
+        padding: 5px;
+    }
+    .copy > p{
+        font-size: 14px;
+        font-weight: 400;
+        width: 95vw;
+        margin: auto;
+    }
+    .copy > p >span{
+     font-size: 14px;
+    font-weight: 400;
+    color: rgb(154,86,249);
+}
+}

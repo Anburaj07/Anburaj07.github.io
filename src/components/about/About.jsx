@@ -1,30 +1,35 @@
 import React, { useEffect } from "react";
 import "./about.css";
-import "./about.scss";
-var GitHubCalendar = require("github-calendar");
+// import "./about.scss";
+// var GitHubCalendar = require("github-calendar")
+import GitHubCalendar from 'github-calendar';
+import { colors } from "@material-ui/core";
+// import ReactGithubCalendar from "react-github-calendar";
 
 export default function About() {
   // or enable responsive functionality:
+  const username="Anburaj07"
   useEffect(() => {
-    console.log("working");
-    GitHubCalendar(".calendar", "ravi-bala13", { responsive: true });
-  }, []);
+    const container = document.querySelector('.react-activity-calendar');
+    if (container) {
+      console.log('sdfsd')
+      GitHubCalendar(username, container, { responsive: true });
+    }
+  }, [username]);
 
   return (
-    <div className="main" id="about">
-      <div className="about">
+    <div className="main about section" id="about">
+      <div className="aboutCSS">
         <h1>About Me</h1>
         <div className="line"></div>
         <div className="parCont">
-          <div className="para">
+          <div className="para" id="user-detail-intro">
             <h2>Hi , I am Anburaj</h2>
             🏡 I am from Madurai , TamilNadu.
             <br />
             <br />
             Passionate and dedicated aspiring full-stack web developer with a
             specialization in MERN stack.
-            {/* I am a Full-Stack Web Developer with a degree in Computer Science
-            Engineering. */}
             <br />
             <br />
             Keen to build and develop high-quality user-friendly platforms by
@@ -50,124 +55,143 @@ export default function About() {
         </div>
       </div>
 
-      <div className="skills" id="skills">
-        <h1>Proficiency</h1>
+      <div className="skillsCSS" id="skills">
+        <h1 >Proficiency</h1>
         <div className="line"></div>
         <div className="options">
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/html5.png"} alt="" />
+                <img className="skills-card-img" src={"assets/html5.png"} alt="" />
               </div>
-              <div className="name">HTML</div>
+              <div className="name skills-card-name">HTML</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/css3.png"} alt="" />
+                <img className="skills-card-img" src={"assets/css3.png"} alt="" />
               </div>
-              <div className="name">CSS</div>
+              <div className="name skills-card-name">CSS</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/JavaScript.png"} alt="" />
+                <img className="skills-card-img" src={"assets/JavaScript.png"} alt="" />
               </div>
-              <div className="name">Javascript</div>
+              <div className="name skills-card-name">Javascript</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/React.png"} alt="" />
+                <img className="skills-card-img" src={"assets/React.png"} alt="" />
               </div>
-              <div className="name">React</div>
+              <div className="name skills-card-name">React</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/redux.png"} alt="" />
+                <img className="skills-card-img" src={"assets/redux.png"} alt="" />
               </div>
-              <div className="name">Redux</div>
+              <div className="name skills-card-name">Redux</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/npm.png"} alt="" />
+                <img className="skills-card-img" src={"assets/npm.png"} alt="" />
               </div>
-              <div className="name">NPM</div>
+              <div className="name skills-card-name">NPM</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/node.jpg"} alt="" />
+                <img className="skills-card-img" src={"assets/node.jpg"} alt="" />
               </div>
-              <div className="name">Node.js</div>
+              <div className="name skills-card-name">Node.js</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/express.png"} alt="" />
+                <img className="skills-card-img" src={"assets/express.png"} alt="" />
               </div>
-              <div className="name">Express.js</div>
+              <div className="name skills-card-name">Express.js</div>
             </div>
           </div>
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/mongodb.png"} alt="" />
+                <img className="skills-card-img" src={"assets/mongodb.png"} alt="" />
               </div>
-              <div className="name">MongoDB</div>
+              <div className="name skills-card-name">MongoDB</div>
             </div>
           </div>
 
-          <div className="icons">
+          {/* <div className="icons">
             <div className="mainCO">
               <div className="iconContainer" id="material-ui">
                 <img src={"assets/spring.jpeg"} alt="" />
               </div>
               <div className="name">Spring Boot</div>
             </div>
-          </div>
+          </div> */}
 
           <div className="icons">
-            <div className="mainCO">
+            <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img src={"assets/github.png"} alt="" />
+                <img className="skills-card-img" src={"assets/github.png"} alt="" />
               </div>
-              <div className="name">GIT</div>
+              <div className="name skills-card-name">GIT</div>
             </div>
           </div>
 
-          <div className="icons">
+          {/* <div className="icons">
             <div className="mainCO">
               <div className="iconContainer">
                 <img src={"assets/bitbucket.png"} alt="" />
               </div>
               <div className="name">Bitbucket</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
       <div className="about github-cal">
-        <h1>My Github Calender</h1>
+        <h1 style={{textAlign:"center",color:"white"}}>Git Stat's</h1>
         <div className="line"></div>
-        <div className="calendar"></div>
+        <div className="react-activity-calendar">
+          {/* <ReactGithubCalendar
+            username={"shivakrishnak13"}
+            style={{ width: "95%", margin: "auto" }}
+            // className="calender-git"
+            // classForValue={(value) => `contribution-level-${value.count}`}
+          /> */}
+
+        </div>
+        <div className="github">
+        <div >
+        <img id="github-streak-stats" src="https://github-readme-stats.vercel.app/api?username=Anburaj07&&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
+        </div>
+        <div >
+        <img id="github-stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=Anburaj07&hide_border=false" alt="GitHub Stats" />
+        </div>
+        <div >
+        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anburaj07&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub Stats" />
+        </div>
+        </div>
       </div>
     </div>
   );

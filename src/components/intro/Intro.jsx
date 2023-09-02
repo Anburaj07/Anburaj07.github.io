@@ -17,12 +17,12 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className="intro" id="intro">
+    <div className="intro" id="intro" >
       <div className="right">
-        <div className="wrapper">
-          <h2>
+        <div className="wrapper" style={{color:"whitesmoke"}}>
+          <h2 >
             Hi There, I'm{" "}
-            <span style={{ height: "20px", width: "20px" }}>
+            <span style={{ height: "20px", width: "20px"}}>
               <img
                 style={{ height: "30px" }}
                 src="https://twemoji.maxcdn.com/2/72x72/1f44b.png"
@@ -30,15 +30,16 @@ export default function Intro() {
               />
             </span>
           </h2>
-          <h1 className="my-name">Anburaj</h1>
-          <h3>
+          <h1 id="user-detail-name" className="my-name" >Anburaj</h1>
+          <h3 >
             a <span ref={textRef}></span>
           </h3>
-          <h3 style={{ marginTop: "10px" }}>I'm from Madurai, TamilNadu</h3>
+          <h3 style={{ marginTop: "10px",color:"#E0E0E0" }}>I'm from Madurai, TamilNadu</h3>
           <button
+          id="resume-button-2"
             className="btn"
             onClick={() =>
-              window.open("assets/fw12_119-Bala-Murugan-Resume.pdf", "_blank")
+              window.open("assets/Anburaj-Resume.pdf", "_blank")
             }
           >
             <span>
@@ -52,8 +53,8 @@ export default function Intro() {
         </a>
       </div>
       <div className="left">
-        <div className="imgContainer">
-          <img src="assets/balapic1.jpg" alt="" />
+        <div className="imgContainer ">
+          <img className="home-img" src="assets/myPhoto.png" alt="" />
         </div>
       </div>
     </div>

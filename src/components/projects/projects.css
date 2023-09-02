@@ -10,12 +10,12 @@
 }
 /* &&&&&&&&&& */
 
-.projects {
+.projectsCSS {
   width: 80vw;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 90px;
 }
-.projects > h1 {
+.projectsCSS > h1 {
   color: rgb(204, 214, 246);
   width: fit-content;
   margin: auto;
@@ -66,7 +66,7 @@ border: 3px solid rgb(57,43,94); */
   /* height: 80%; */
   margin-top: 10px;
   padding: 10px;
-  text-align: right;
+  text-align: center;
 }
 .pinf > h3 {
   margin-top: 20px;

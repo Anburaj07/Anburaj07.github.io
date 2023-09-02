@@ -1,12 +1,14 @@
 @import "../../global.scss";
 
-.my-logo {
-  width: 40px;
+.my-logo {  
+  // border: 1px solid yellow;
+  width: 70px;
 }
 
 .topbar {
   width: 100%;
-  height: 70px;
+  // height: 70px;
+  padding: 10px;
   background-color: rgb(17, 24, 37);
   color: white;
   position: fixed;
@@ -21,23 +23,25 @@
   .wrapper {
     // width: 80vw;
     margin: auto;
-    padding: 10px 30px;
+    // padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    // border: 4px solid white;
 
     .left {
       display: flex;
       align-items: center;
-      margin-left: 6vw;
+      margin-left: 2vw;
+      // border: 4px solid red;
 
-      .logo {
-        font-size: 40px;
-        font-weight: 700;
-        text-decoration: none;
-        color: inherit;
-        margin-right: 40px;
-      }
+      // .logo {
+      //   font-size: 40px;
+      //   font-weight: 700;
+      //   text-decoration: none;
+      //   color: inherit;
+      //   margin-right: 40px;
+      // }
 
       .option > *{
         display: flex;
@@ -46,7 +50,7 @@
         cursor: pointer;
 
         a {
-          font-size: inherit;
+          font-size: 30px;
           color: inherit;
           text-decoration: none;
         }
@@ -70,7 +74,7 @@
         }
 
         span {
-          font-size: 15px;
+          font-size: 20px;
           font-weight: 500;
           border-bottom: none;
         }

@@ -40,14 +40,7 @@ export default function About() {
             <br />
             Eager to obtain a challenging position at a dynamic company to
             enhance my learning and contribute to exciting projects.
-            {/* I have designed the clone of some of the websites using React,
-            CSS,HTML and Javascript. Curious to learn and apply my skills on a
-            large scale. */}
-            {/* I am a good team player. */}
-            {/* Recent computer science graduate with a passion of developing scalable
-          web application and working across the full stack. I have designed the
-          clone of some of the websites using React, CSS,HTML and Javascript.
-          Curious to learn and apply my skills on a large scale. */}
+
           </div>
           <div className="parImg">
             <img src="assets/aboutImg.jpg" alt="" />

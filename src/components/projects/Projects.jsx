@@ -106,14 +106,6 @@ export default function Projects() {
           A website for a travel agency that features stunning destinations and tour packages from around the world. It enables individuals to book their dream destinations within their budgets.
           </p>
 
-          {/* <div className="features">
-            <p>Feature</p>
-            <ul>
-              <li>Product details getting from backend</li>
-              <li>checking login credential using mangodb </li>
-            </ul>
-          </div> */}
-
           <h4 className="project-tech-stack">Tech Stack</h4>
           <p>HTML5  | CSS3  | Javascript | Bootstrap</p>
           <div className="card_btn">
@@ -148,19 +140,9 @@ export default function Projects() {
           <p className="project-description">An innovative online doctor appointment platform that empowers users to find and schedule appointments with specialist doctors from various medical fields conveniently
              </p>
 
-          {/* <div className="features">
-            <p>Feature</p>
-            <ul>
-              <li>Can create post</li>
-              <li>Can add comments for the posts</li>
-              <li>Can like and dislike the post</li>
-              <li>Can chat with other users</li>
-            </ul>
-          </div> */}
-
           <h4 className="project-tech-stack">Tech Stack</h4>
           <p>
-          React | Chakra UI 
+          React | Chakra UI | HTML5  | CSS3  | Javascript
           </p>
           <div className="card_btn">
             <button className="project-deployed-link">
@@ -186,30 +168,34 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* <div className="pcards">
+      <div className="pcards project-card">
         <div className="pimg">
-          <img src={"assets/TodoApp.png"} alt="" />
+          <img src={"assets/quickloan.png"} alt="" />
         </div>
         <div className="pinf">
-          <h3>Todo App</h3>
-          <p>A Basic Todo app to make a todo list for a day.</p>
-          <h4>Tech Stack</h4>
-          <p>HTML . css . React . Material-UI</p>
+          <h3 className="project-title">Quick loan</h3>
+          <p className="project-description">Your trusted online hub for diverse loan options with competitive rates and a hassle-free application process, ensuring financial support tailored to your needs
+             </p>
+
+          <h4 className="project-tech-stack">Tech Stack</h4>
+          <p>
+          React | Chakra UI | Redux | HTML5  | CSS3  | Javascript 
+          </p>
           <div className="card_btn">
-            <button>
+            <button className="project-deployed-link">
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://todo-app-nine-blond.vercel.app/"
+                href="https://quickloan-app.vercel.app/"
               >
                 DEMO
               </a>
             </button>
-            <button>
+            <button className="project-github-link">
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/ravi-bala13/Todo-app"
+                href="https://github.com/vk10082000/parsimonious-clover-8073"
               >
                 {" "}
                 CODE
@@ -217,7 +203,8 @@ export default function Projects() {
             </button>
           </div>
         </div>
-      </div> */}
+      </div>
+
     </div>
   );
 }

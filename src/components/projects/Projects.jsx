@@ -170,7 +170,7 @@ export default function Projects() {
 
       <div className="pcards project-card">
         <div className="pimg">
-          <img src={"assets/quickloan.png"} alt="" />
+          <img src={"assets/Quickloan.png"} alt="" />
         </div>
         <div className="pinf">
           <h3 className="project-title">Quick loan</h3>
@@ -195,7 +195,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/vk10082000/parsimonious-clover-8073"
+                href="https://github.com/Anburaj07/parsimonious-clover-8073"
               >
                 {" "}
                 CODE

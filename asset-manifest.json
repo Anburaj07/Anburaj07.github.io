@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e973268.chunk.css",
-    "main.js": "/static/js/main.8137fe04.chunk.js",
-    "main.js.map": "/static/js/main.8137fe04.chunk.js.map",
+    "main.css": "/static/css/main.259e6cf2.chunk.css",
+    "main.js": "/static/js/main.bb16aa00.chunk.js",
+    "main.js.map": "/static/js/main.bb16aa00.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.92c85d35.js",
     "runtime-main.js.map": "/static/js/runtime-main.92c85d35.js.map",
     "static/js/2.4a37a12b.chunk.js": "/static/js/2.4a37a12b.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.ad6940ec.chunk.js": "/static/js/3.ad6940ec.chunk.js",
     "static/js/3.ad6940ec.chunk.js.map": "/static/js/3.ad6940ec.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9e973268.chunk.css.map": "/static/css/main.9e973268.chunk.css.map",
+    "static/css/main.259e6cf2.chunk.css.map": "/static/css/main.259e6cf2.chunk.css.map",
     "static/js/2.4a37a12b.chunk.js.LICENSE.txt": "/static/js/2.4a37a12b.chunk.js.LICENSE.txt",
     "static/media/Anburaj-Resume.2a97e325.pdf": "/static/media/Anburaj-Resume.2a97e325.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.92c85d35.js",
     "static/js/2.4a37a12b.chunk.js",
-    "static/css/main.9e973268.chunk.css",
-    "static/js/main.8137fe04.chunk.js"
+    "static/css/main.259e6cf2.chunk.css",
+    "static/js/main.bb16aa00.chunk.js"
   ]
 }

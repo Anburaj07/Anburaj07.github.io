@@ -1,6 +1,7 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import resume from "../Resume/Anburaj-Resume.pdf"
 
 import DescriptionIcon from "@material-ui/icons/Description";
 
@@ -15,6 +16,23 @@ export default function Intro() {
       strings: ["Software Engineer", "Full-Stack Web Developer"],
     });
   }, []);
+
+  const handleDownload = async() => {
+
+    const response= await fetch("assets/Anburaj-Resume.pdf");
+    const blob = await response.blob();
+    const blobUrl = URL.createObjectURL(blob);
+
+    
+    const link = document.createElement('a');
+    link.href = resume;
+    link.target = '_blank';
+    link.setAttribute('download', 'anburaj-Resume.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);    
+    window.open(blobUrl, '_blank');
+  };
 
   return (
     <div className="intro" id="intro" >
@@ -38,19 +56,12 @@ export default function Intro() {
           <button
           id="resume-button-2"
             className="btn"
-            onClick={() =>
-              window.open("assets/Anburaj-Resume.pdf", "_blank")
-            }
+            onClick={handleDownload}
+            
           >
-            <span>
-              <DescriptionIcon style={{ height: "17px", width: "20px" }} />
-            </span>
-            Resume
+            Resume 
           </button>
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
-        </a>
       </div>
       <div className="left">
         <div className="imgContainer ">

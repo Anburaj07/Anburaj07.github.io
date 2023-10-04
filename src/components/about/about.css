@@ -2,7 +2,9 @@
      width: 70vw;
     margin: auto;
 } */
-
+*{
+  box-sizing: border-box;
+}
 .aboutCSS {
   width: 80vw;
   margin: auto;
@@ -22,7 +24,7 @@
   /* border-bottom: 3px solid aliceblue; */
 }
 .line {
-  width: 150px;
+  width: 170px;
   height: 6px;
   margin: auto;
   border-radius: 10px;
@@ -81,12 +83,6 @@
 }
 .icons {
   background-color: #15023a;
-  /* height: 100px; */
-  /* width: 150px; */
-  /* text-align: center;
-    margin: 5px;
-    border: 1px solid white; */
-  /* overflow-y: hidden; */
   width: 120px;
   height: 120px;
   display: flex;
@@ -143,10 +139,12 @@
 }
 @media screen and (max-width: 768px) {
   .options {
-    width: 90%;
+    width: 100%;
+    margin: auto;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    gap: 4%;
+    gap: 2%;
+    padding: 1rem;
   }
   .parCont {
     display: block;
@@ -168,7 +166,27 @@
   .options {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    gap: 2%;
+    gap: 1%;
+  }
+
+  .github{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    padding-top: 0px;
+  }
+  .github img{
+    width: 99%;
+  }
+  
+  .react-activity-calendar>img{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 }
 
@@ -196,4 +214,16 @@
 }
 #github-top-langs{
   height: 190px;
+}
+.react-activity-calendar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.react-activity-calendar>img{
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

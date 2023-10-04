@@ -28,7 +28,8 @@ export default function About() {
             🏡 I am from Madurai , TamilNadu.
             <br />
             <br />
-            Passionate and dedicated aspiring full-stack web developer with a
+            A self-motivated, hard-working, and ambitious Full-Stack Web Developer and a good learner with proficiency in JavaScript,ReactJS,NodeJS. Having a Problem-solving mindset, and 1200+ hrs of hands-on experience in developing fully functional E-commerce applications. Looking forward to working as a developer and competent employee in an exciting tech company.
+            {/* Passionate and dedicated aspiring full-stack web developer with a
             specialization in MERN stack.
             <br />
             <br />
@@ -38,8 +39,8 @@ export default function About() {
             develop scalable web applications. */}
             <br />
             <br />
-            Eager to obtain a challenging position at a dynamic company to
-            enhance my learning and contribute to exciting projects.
+            {/* Eager to obtain a challenging position at a dynamic company to
+            enhance my learning and contribute to exciting projects.  */}
 
           </div>
           <div className="parImg">
@@ -163,7 +164,7 @@ export default function About() {
       </div>
 
       <div className="about github-cal">
-        <h1 style={{textAlign:"center",color:"white"}}>Git Stat's</h1>
+        <h1 style={{textAlign:"center",color:"white"}}>GitHub Contribution</h1>
         <div className="line"></div>
         <div className="react-activity-calendar">
           {/* <ReactGithubCalendar
@@ -172,14 +173,14 @@ export default function About() {
             // className="calender-git"
             // classForValue={(value) => `contribution-level-${value.count}`}
           /> */}
-
+          <img src={"assets/calender.PNG"} alt="" />
         </div>
         <div className="github">
         <div >
-        <img id="github-streak-stats" src="https://github-readme-stats.vercel.app/api?username=Anburaj07&&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
+        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Anburaj07&&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
         </div>
         <div >
-        <img id="github-stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=Anburaj07&hide_border=false" alt="GitHub Stats" />
+        <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Anburaj07&hide_border=false" alt="GitHub Stats" />
         </div>
         <div >
         <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anburaj07&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub Stats" />

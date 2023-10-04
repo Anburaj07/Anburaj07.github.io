@@ -8,7 +8,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resume;
-    link.setAttribute('download', 'resume.pdf');
+    link.setAttribute('download', 'Anburaj-Resume.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -47,10 +47,12 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             </div>
                <div id="resume-button-1" className="itemContainer nav-link resume" > 
               {/* <span style={{ display: "flex" }}><GetAppIcon style={{height:"18px",margin:"2px",borderBottom:"none"}}/>  Resume</span>  */}
-              <button class="nav-resume-button type1" onClick={handleDownload} style={{fontSize:"18px"}}>RESUME</button>
+              <span>              <a href={resume} className="googleDrive" id="resume-link-1" download="anburaj-Resume"
+                                target="_blank">Resume
+                            </a></span>
+              {/* <button class="nav-resume-button type1" onClick={handleDownload} style={{fontSize:"18px"}}>RESUME</button> */}
               {/* onClick={() => window.open("assets/Anburaj-Resume.pdf", "_blank")} */}
-          
-            
+                      
             </div>
             </div>
         </div>

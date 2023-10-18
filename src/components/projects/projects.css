@@ -3,7 +3,6 @@
   color: white;
   font-size: 12px;
   margin-top: 5px;
-  @mobile;
 }
 .features > p {
   color: rgb(204, 214, 246);
@@ -43,9 +42,7 @@ border: 3px solid rgb(57,43,94); */
   margin: auto auto;
   border-radius: 10px;
 }
-.pimg :hover {
-  /* margin: auto; */
-}
+
 .pimg > img {
   height: 95%;
   width: 95%;

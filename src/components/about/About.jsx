@@ -103,7 +103,7 @@ export default function About() {
               <div className="iconContainer">
                 <img className="skills-card-img" src={"assets/typescript.png"} alt="" />
               </div>
-              <div className="name skills-card-name">Typescript</div>
+              <div className="name skills-card-name">TypeScript</div>
             </div>
           </div>
 
@@ -139,7 +139,7 @@ export default function About() {
               <div className="iconContainer" id="material-ui">
                 <img src={"assets/tailwindCSS.png"} alt="" />
               </div>
-              <div className="name">Tailwind-CSS</div>
+              <div className="name">Tailwind CSS</div>
             </div>
           </div>
 

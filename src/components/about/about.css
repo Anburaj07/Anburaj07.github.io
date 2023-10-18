@@ -70,7 +70,7 @@
   padding: 2%;
 }
 .skillsCSS {
-  width: 70vw;
+  width: 70%;
   margin: auto;
   margin-top: 100px;  
 }
@@ -92,9 +92,9 @@
   height: 120px;
   display: flex;
   text-align: center;
-  -webkit-box-pack: center;
+  /* -webkit-box-pack: center; */
   justify-content: center;
-  -webkit-box-align: center;
+  /* -webkit-box-align: center; */
   align-items: center;
   border: 1px solid white;
   border-radius: 10px;
@@ -105,7 +105,7 @@
 }
 
 .icons:hover {
-  box-shadow: rgb(204, 214, 246) 3px 3px 5px;
+  box-shadow: rgb(255, 255, 255) 3px 3px 5px;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .iconContainer {
@@ -135,7 +135,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto; */
   width: 100%;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   padding: 2rem;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
@@ -171,22 +171,56 @@
 @media screen and (max-width: 640px) {
   .options {
     grid-template-columns: auto auto;
-    max-height: 110vh;
+    /* max-height: 110vh; */
     grid-template-rows: auto;
     gap: 1%;
+    border: 1px solid red;
   }
-
-  .github{
+  .skillsCSS>h1{
+    font-size: 25px;
+  }
+  .icons {
+    width: 92px;
+    height: 90px;
     display: flex;
+    text-align: center;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+    /* -webkit-box-align: center; */
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 200;
+    color: rgb(242, 245, 247);
+  }
+  .about{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+  .react-activity-calendar{
+    /* border: 1px solid red; */
+  }
+  .github{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
     margin: auto;
     width: 85%;
-    justify-content: space-between;
-    align-items: center;
-    height: 110px;
-    padding-top: 0px;
+    justify-content: center;
+    align-items:center;
+    /* height: 110px; */
   }
-  .github img{
+  #github-top-langs{
+    height: 100px;
+  }
+  /* .github>div>img{
     width: 99%;
+  } */
+  .github-cal>h1{
+    font-size: 25px;
+    /* border: 1x solid red; */
   }
   
   .react-activity-calendar>img{

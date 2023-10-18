@@ -148,3 +148,9 @@ padding-right: 20px;
     }
 
 }
+
+@media screen and (max-width: 640px) {
+    .contactCSS > h1 {
+      font-size: 30px;
+    }
+  }

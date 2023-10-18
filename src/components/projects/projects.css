@@ -3,7 +3,7 @@
   color: white;
   font-size: 12px;
   margin-top: 5px;
-  @mobie;
+  @mobile;
 }
 .features > p {
   color: rgb(204, 214, 246);
@@ -170,5 +170,11 @@ border: 3px solid rgb(57,43,94); */
   }
   .card_btn {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .projectsCSS > h1 {
+    font-size: 28px;
   }
 }

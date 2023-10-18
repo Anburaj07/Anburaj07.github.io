@@ -205,6 +205,43 @@ export default function Projects() {
         </div>
       </div>
 
+      <div className="pcards project-card">
+        <div className="pimg">
+          <img src={"assets/PrepareBePro.png"} alt="" />
+        </div>
+        <div className="pinf">
+          <h3 className="project-title">PrepareBePro</h3>
+          <p className="project-description">Transforming interview preparation with an integrated OpenAI platform for seamless skill-building
+             </p>
+
+          <h4 className="project-tech-stack">Tech Stack</h4>
+          <p>
+          React | TypeScript | Tailwind CSS | Spring Boot  | Core Java 
+          </p>
+          <div className="card_btn">
+            <button className="project-deployed-link">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://byte-wave-sand.vercel.app/"
+              >
+                DEMO
+              </a>
+            </button>
+            <button className="project-github-link">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Anburaj07/PrepareBePro"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

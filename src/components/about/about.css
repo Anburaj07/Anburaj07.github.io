@@ -13,6 +13,7 @@
   text-align: center;
   border-radius: 10px;
   background-color: rgb(28, 16, 46);
+  /* background-color:#B3E5FC; */
 }
 .aboutCSS > h1 {
   color: rgb(204, 214, 246);
@@ -24,14 +25,14 @@
   /* border-bottom: 3px solid aliceblue; */
 }
 .line {
-  width: 170px;
+  width: 190px;
   height: 6px;
   margin: auto;
   border-radius: 10px;
   background: linear-gradient(
     270deg,
-    rgb(19, 173, 199) 0%,
-    rgb(148, 93, 214) 100%
+    rgb(14, 128, 148) 0%,
+    rgb(136, 97, 184) 100%
   );
 }
 .para {
@@ -73,8 +74,12 @@
   margin: auto;
   margin-top: 100px;  
 }
+#tools{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .skillsCSS > h1 {
-  color: rgb(204, 214, 246);
+  color: rgb(251, 251, 251);
   width: fit-content;
   margin: auto;
   font-weight: 700;
@@ -101,6 +106,7 @@
 
 .icons:hover {
   box-shadow: rgb(204, 214, 246) 3px 3px 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .iconContainer {
   margin: 5px;
@@ -165,6 +171,7 @@
 @media screen and (max-width: 640px) {
   .options {
     grid-template-columns: auto auto;
+    max-height: 110vh;
     grid-template-rows: auto;
     gap: 1%;
   }
@@ -226,4 +233,7 @@
   width: 70%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.github-cal{
+  color: rgb(251, 251, 251);
 }

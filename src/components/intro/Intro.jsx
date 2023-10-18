@@ -25,9 +25,10 @@ export default function Intro() {
 
     
     const link = document.createElement('a');
-    link.href = resume;
+    link.id='resume-link-2'
+    link.href = blobUrl;
     link.target = '_blank';
-    link.setAttribute('download', 'anburaj-Resume.pdf');
+    link.setAttribute('download', 'Anburaj-Resume.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);    
@@ -36,7 +37,7 @@ export default function Intro() {
 
   return (
     <div className="intro" id="intro" >
-      <div className="right">
+      <div className="right1">
         <div className="wrapper" style={{color:"whitesmoke"}}>
           <h2 >
             Hi There, I'm{" "}
@@ -56,14 +57,13 @@ export default function Intro() {
           <button
           id="resume-button-2"
             className="btn"
-            onClick={handleDownload}
-            
+            onClick={handleDownload}            
           >
             Resume 
           </button>
         </div>
       </div>
-      <div className="left">
+      <div className="left1">
         <div className="imgContainer ">
           <img className="home-img" src="assets/myPhoto.png" alt="" />
         </div>

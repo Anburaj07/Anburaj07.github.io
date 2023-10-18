@@ -1,17 +1,6 @@
 .App{
   height: 100vh;
-  // scroll-snap-type: y mandatory;
-  //  &::-webkit-scrollbar{
-  //     display: none;
-  //   }
-  //background-color: rgb(35,41,70);
-
-//   .app{
-// &::-webkit-scrollbar{
-//       display: none;
-//     }
-//     background-color: rgb(35,41,70)
-//   }
+  box-sizing: border-box;
   .sections{
     width: 100%;
     height: calc(100vh - 70px);

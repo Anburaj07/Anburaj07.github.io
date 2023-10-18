@@ -20,7 +20,7 @@ export default function About() {
   return (
     <div className="main about section" id="about">
       <div className="aboutCSS">
-        <h1>About Me</h1>
+        <h1>About</h1>
         <div className="line"></div>
         <div className="parCont">
           <div className="para" id="user-detail-intro">
@@ -50,7 +50,7 @@ export default function About() {
       </div>
 
       <div className="skillsCSS" id="skills">
-        <h1 >Proficiency</h1>
+        <h1 >Languages</h1>
         <div className="line"></div>
         <div className="options">
           <div className="icons">
@@ -101,9 +101,9 @@ export default function About() {
           <div className="icons">
             <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img className="skills-card-img" src={"assets/npm.png"} alt="" />
+                <img className="skills-card-img" src={"assets/typescript.png"} alt="" />
               </div>
-              <div className="name skills-card-name">NPM</div>
+              <div className="name skills-card-name">Typescript</div>
             </div>
           </div>
 
@@ -134,21 +134,21 @@ export default function About() {
             </div>
           </div>
 
-          {/* <div className="icons">
+          <div className="icons">
             <div className="mainCO">
               <div className="iconContainer" id="material-ui">
-                <img src={"assets/spring.jpeg"} alt="" />
+                <img src={"assets/tailwindCSS.png"} alt="" />
               </div>
-              <div className="name">Spring Boot</div>
+              <div className="name">Tailwind-CSS</div>
             </div>
-          </div> */}
+          </div>
 
           <div className="icons">
             <div className="mainCO skills-card">
               <div className="iconContainer">
-                <img className="skills-card-img" src={"assets/github.png"} alt="" />
+                <img className="skills-card-img" src={"assets/chakra.jpg"} alt="" />
               </div>
-              <div className="name skills-card-name">GIT</div>
+              <div className="name skills-card-name">Chakra-UI</div>
             </div>
           </div>
 
@@ -162,9 +162,69 @@ export default function About() {
           </div> */}
         </div>
       </div>
+      <div className="skillsCSS" id="tools">
+        <h1 >Tools</h1>
+        <div className="line"></div>
+        <div className="options">
+          <div className="icons">
+            <div className="mainCO skills-card">
+              <div className="iconContainer">
+                <img className="skills-card-img" src={"assets/postman.png"} alt="" />
+              </div>
+              <div className="name skills-card-name">Postman</div>
+            </div>
+          </div>
+
+          <div className="icons">
+            <div className="mainCO skills-card">
+              <div className="iconContainer">
+                <img className="skills-card-img" src={"assets/npm.png"} alt="" />
+              </div>
+              <div className="name skills-card-name">NPM</div>
+            </div>
+          </div>
+
+          <div className="icons">
+            <div className="mainCO skills-card">
+              <div className="iconContainer">
+                <img className="skills-card-img" src={"assets/netlify.png"} alt="" />
+              </div>
+              <div className="name skills-card-name">Netlify</div>
+            </div>
+          </div>
+
+          <div className="icons">
+            <div className="mainCO skills-card">
+              <div className="iconContainer">
+                <img className="skills-card-img" src={"assets/github.png"} alt="" />
+              </div>
+              <div className="name skills-card-name">GIT</div>
+            </div>
+          </div>
+
+          <div className="icons">
+            <div className="mainCO skills-card">
+              <div className="iconContainer">
+                <img className="skills-card-img" src={"assets/render.jpg"} alt="" />
+              </div>
+              <div className="name skills-card-name">Render</div>
+            </div>
+          </div>
+
+          <div className="icons">
+            <div className="mainCO skills-card">
+              <div className="iconContainer">
+                <img className="skills-card-img" src={"assets/vercel.png"} alt="" />
+              </div>
+              <div className="name skills-card-name">Vercel</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
       <div className="about github-cal">
-        <h1 style={{textAlign:"center",color:"white"}}>GitHub Contribution</h1>
+        <h1 style={{textAlign:"center"}}>GitHub Contribution</h1>
         <div className="line"></div>
         <div className="react-activity-calendar">
           {/* <ReactGithubCalendar

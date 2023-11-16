@@ -207,6 +207,43 @@ export default function Projects() {
 
       <div className="pcards project-card">
         <div className="pimg">
+          <img src={"assets/e-TutorHub.png"} alt="" />
+        </div>
+        <div className="pinf">
+          <h3 className="project-title">e-TutorHub</h3>
+          <p className="project-description">Your trusted online hub for diverse loan options with competitive rates and a hassle-free application process, ensuring financial support tailored to your needs
+             </p>
+
+          <h4 className="project-tech-stack">Tech Stack</h4>
+          <p>
+          React | Chakra UI | Redux | HTML5  | CSS3  | Javascript 
+          </p>
+          <div className="card_btn">
+            <button className="project-deployed-link">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://quickloan-app.vercel.app/"
+              >
+                DEMO
+              </a>
+            </button>
+            <button className="project-github-link">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Anburaj07/parsimonious-clover-8073"
+              >
+                {" "}
+                CODE
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="pcards project-card">
+        <div className="pimg">
           <img src={"assets/PrepareBePro.png"} alt="" />
         </div>
         <div className="pinf">

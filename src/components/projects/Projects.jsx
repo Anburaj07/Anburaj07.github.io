@@ -211,19 +211,19 @@ export default function Projects() {
         </div>
         <div className="pinf">
           <h3 className="project-title">e-TutorHub</h3>
-          <p className="project-description">Your trusted online hub for diverse loan options with competitive rates and a hassle-free application process, ensuring financial support tailored to your needs
+          <p className="project-description">Empower your learning journey with e-Tutor Hub, your ultimate destination for a diverse range of courses.
              </p>
 
           <h4 className="project-tech-stack">Tech Stack</h4>
           <p>
-          React | Chakra UI | Redux | HTML5  | CSS3  | Javascript 
+          React | Chakra UI | Redux | Express  | MongoDB  | NodeJS 
           </p>
           <div className="card_btn">
             <button className="project-deployed-link">
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://quickloan-app.vercel.app/"
+                href="https://deluxe-change-1738-rho.vercel.app/"
               >
                 DEMO
               </a>
@@ -232,7 +232,7 @@ export default function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/Anburaj07/parsimonious-clover-8073"
+                href="https://github.com/Anburaj07/deluxe-change-1738"
               >
                 {" "}
                 CODE

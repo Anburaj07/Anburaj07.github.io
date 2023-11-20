@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="line"></div>
         <div className="contact_inf">
           <div className="parag">
-            <h2>Just say Hi👋 </h2>
+            <h2>Just say Hi👋  </h2>
             <p>
             Open for collaboration and eager to explore projects or brainstorm fresh concepts.
             </p>
